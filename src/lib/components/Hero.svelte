@@ -26,7 +26,7 @@
 
 		& {
 			height: 74vh;
-			background: linear-gradient(180deg, rgba(36, 37, 38, 0) 0%, #242526 100%), url(banner.webp);
+			background: linear-gradient(180deg, rgba(36, 37, 38, 0) 0%, #242526 100%), url(/banner.webp);
 			background-position: center;
 			background-repeat: no-repeat;
 			background-size: cover;
