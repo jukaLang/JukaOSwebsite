@@ -1,10 +1,21 @@
 <script>
 	import Icon from '@iconify/svelte';
 	import Button from './Button.svelte';
+	import { onMount } from 'svelte';
 	let isActive = false;
+	let isScrolled = false;
+
+	const handleScroll = () => {
+		isScrolled = window.scrollY > 0;
+	};
+
+	onMount(() => {
+		window.addEventListener('scroll', handleScroll);
+		return () => window.removeEventListener('scroll', handleScroll);
+	});
 </script>
 
-<header class="header">
+<header class="header" class:scrolled={isScrolled}>
 	<div class="header__container">
 		<a href="/" class="header__container__logo">
 			<img src="logo.svg" alt="JukaOS Logo" />
@@ -54,6 +65,11 @@
 			position: fixed;
 			width: 100%;
 			z-index: 3;
+			transition: ease-in-out 0.3s;
+
+			&.scrolled {
+				background-color: $bg-clr;
+			}
 		}
 
 		&__container {
