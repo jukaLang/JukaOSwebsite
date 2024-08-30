@@ -6,3 +6,7 @@
   color: inherit;
   font-family: inter, sans-serif;
 }
+
+:global(body) {
+  background-color: black;
+}
