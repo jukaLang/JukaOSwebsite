@@ -1,0 +1,9 @@
+@mixin container {
+  display: flex;
+  justify-content: center;
+
+  &__container {
+    width: 100%;
+    max-width: $max-width;
+  }
+}
