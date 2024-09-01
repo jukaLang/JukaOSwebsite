@@ -1,0 +1,33 @@
+@keyframes -global-fade-in {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes -global-from-left {
+  0% {
+    transform: translateX(-5vw);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes -global-from-bottom {
+  0% {
+    transform: translateY(5vw);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

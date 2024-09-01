@@ -25,15 +25,11 @@
 		@include container;
 
 		& {
-			height: 90vh;
 			background: linear-gradient(180deg, rgba(36, 37, 38, 0) 0%, #242526 100%), url(/banner.webp);
 			background-position: center;
 			background-repeat: no-repeat;
 			background-size: cover;
-
-			@media (max-width: 768px) {
-				height: 100vh !important;
-			}
+			height: 100vh;
 		}
 
 		&__container {
