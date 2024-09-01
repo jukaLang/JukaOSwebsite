@@ -18,7 +18,7 @@
 <header class="header" class:scrolled={isScrolled}>
 	<div class="header__container">
 		<a href="/" class="header__container__logo">
-			<img src="logo.svg" alt="JukaOS Logo" />
+			<img src="logo.svg" width="50" height="50" alt="JukaOS Logo" />
 			Visual Juka OS
 		</a>
 
@@ -26,6 +26,7 @@
 			class="header__container__burger"
 			class:active={isActive}
 			on:click={() => (isActive = !isActive)}
+			aria-label="Burger Menu"
 		>
 			<div class="header__container__burger__item"></div>
 			<div class="header__container__burger__item"></div>

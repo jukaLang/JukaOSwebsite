@@ -22,56 +22,56 @@
 		</Saos>
 
 		<ul class="features__container__list">
-			<Saos animation={'from-bottom .8s cubic-bezier(0.35, 0.5, 0.65, 0.95) both'}>
-				<li class="features__container__list__item">
+			<li class="features__container__list__item">
+				<Saos animation={'from-bottom .8s cubic-bezier(0.35, 0.5, 0.65, 0.95) both'}>
 					<Icon icon="material-symbols:speed" width="60" height="60" color="#00E0BC" />
 					<h3 class="features__container__list__item__title">Blazing Performance</h3>
 					<p class="features__container__list__item__text">
 						Enjoy lightning-fast load times and seamless multitasking, optimized specifically for
 						your Trimui Smart Pro.
 					</p>
-				</li>
-			</Saos>
-			<Saos animation={'from-bottom .8s cubic-bezier(0.35, 0.5, 0.65, 0.95) both'}>
-				<li class="features__container__list__item">
+				</Saos>
+			</li>
+			<li class="features__container__list__item">
+				<Saos animation={'from-bottom .8s cubic-bezier(0.35, 0.5, 0.65, 0.95) both'}>
 					<Icon icon="mdi:art" width="60" height="60" color="#00E0BC" />
 					<h3 class="features__container__list__item__title">Total Customization</h3>
 					<p class="features__container__list__item__text">
 						Tailor your device to match your style with customizable themes, wallpapers, and
 						user-friendly layouts.
 					</p>
-				</li>
-			</Saos>
-			<Saos animation={'from-bottom .8s cubic-bezier(0.35, 0.5, 0.65, 0.95) both'}>
-				<li class="features__container__list__item">
+				</Saos>
+			</li>
+			<li class="features__container__list__item">
+				<Saos animation={'from-bottom .8s cubic-bezier(0.35, 0.5, 0.65, 0.95) both'}>
 					<Icon icon="mdi:controller" width="60" height="60" color="#00E0BC" />
 					<h3 class="features__container__list__item__title">Enhanced Gaming</h3>
 					<p class="features__container__list__item__text">
 						Dive into an unparalleled gaming experience with game optimization and robust controller
 						support built-in.
 					</p>
-				</li>
-			</Saos>
-			<Saos animation={'from-bottom .8s cubic-bezier(0.35, 0.5, 0.65, 0.95) both'}>
-				<li class="features__container__list__item">
+				</Saos>
+			</li>
+			<li class="features__container__list__item">
+				<Saos animation={'from-bottom .8s cubic-bezier(0.35, 0.5, 0.65, 0.95) both'}>
 					<Icon icon="mdi:security" width="60" height="60" color="#00E0BC" />
 					<h3 class="features__container__list__item__title">Robust Security</h3>
 					<p class="features__container__list__item__text">
 						Keep your data secure with advanced security features and privacy controls, ensuring
 						peace of mind.
 					</p>
-				</li>
-			</Saos>
-			<Saos animation={'from-bottom .8s cubic-bezier(0.35, 0.5, 0.65, 0.95) both'}>
-				<li class="features__container__list__item">
+				</Saos>
+			</li>
+			<li class="features__container__list__item">
+				<Saos animation={'from-bottom .8s cubic-bezier(0.35, 0.5, 0.65, 0.95) both'}>
 					<Icon icon="mdi:wifi" width="60" height="60" color="#00E0BC" />
 					<h3 class="features__container__list__item__title">Stay Connected</h3>
 					<p class="features__container__list__item__text">
 						Connect effortlessly to Wi-Fi, Bluetooth, and cloud services for smooth data sharing and
 						connectivity.
 					</p>
-				</li>
-			</Saos>
+				</Saos>
+			</li>
 		</ul>
 	</div>
 </section>
