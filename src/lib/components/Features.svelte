@@ -85,6 +85,7 @@
 					align-items: center;
 					justify-content: center;
 					margin-bottom: 42px;
+					text-align: center;
 
 					&__subtitle {
 						color: $primary-clr;
@@ -95,6 +96,7 @@
 					filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.4));
 					margin-bottom: 42px;
 					width: 100%;
+					max-width: 600px;
 					height: auto;
 				}
 
@@ -105,11 +107,11 @@
 					align-items: center;
 					justify-content: center;
 					row-gap: 46px;
-					column-gap: 12px;
+					column-gap: 32px;
 					flex-wrap: wrap;
 
 					&__item {
-						max-width: 300px;
+						max-width: 310px;
 						display: flex;
 						flex-direction: column;
 						align-items: center;

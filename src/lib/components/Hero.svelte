@@ -56,6 +56,7 @@
 
 			&__text {
 				margin-bottom: 22px;
+				max-width: 800px;
 			}
 
 			&__wrapper {
