@@ -25,11 +25,15 @@
 		@include container;
 
 		& {
-			height: 74vh;
+			height: 90vh;
 			background: linear-gradient(180deg, rgba(36, 37, 38, 0) 0%, #242526 100%), url(/banner.webp);
 			background-position: center;
 			background-repeat: no-repeat;
 			background-size: cover;
+
+			@media (max-width: 768px) {
+				height: 100vh !important;
+			}
 		}
 
 		&__container {
@@ -39,11 +43,11 @@
 			justify-content: center;
 			color: white;
 			text-align: center;
+			padding: 0 16px;
 
 			&__title {
-				font-size: 4rem;
 				line-height: 1;
-				margin-bottom: 24px;
+				margin-bottom: 16px;
 
 				&__highlight {
 					color: $primary-clr;
@@ -52,13 +56,14 @@
 
 			&__text {
 				margin-bottom: 22px;
-				max-width: 840px;
 			}
 
 			&__wrapper {
 				display: flex;
 				flex-direction: row;
 				gap: 12px;
+				flex-wrap: wrap;
+				justify-content: center;
 			}
 		}
 	}

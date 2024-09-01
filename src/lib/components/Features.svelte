@@ -6,9 +6,7 @@
 	<div class="features__container">
 		<div class="features__container__header">
 			<h2 class="features__container__header__title">Discover the Possibilities</h2>
-			<span class="features__container__header__subtitle">
-				Taking your Trimui beyond the limits!
-			</span>
+			<p class="features__container__header__subtitle">Taking your Trimui beyond the limits!</p>
 		</div>
 		<img
 			class="features__container__image"
@@ -88,10 +86,6 @@
 					justify-content: center;
 					margin-bottom: 42px;
 
-					&__title {
-						font-size: 2.625rem;
-					}
-
 					&__subtitle {
 						color: $primary-clr;
 					}
@@ -100,6 +94,8 @@
 				&__image {
 					filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.4));
 					margin-bottom: 42px;
+					width: 100%;
+					height: auto;
 				}
 
 				&__list {
@@ -120,7 +116,6 @@
 						text-align: center;
 
 						&__title {
-							font-size: 1.5rem;
 							color: $primary-clr;
 							margin-bottom: 8px;
 						}
