@@ -132,6 +132,10 @@
 						align-items: center;
 						cursor: pointer;
 						gap: 12px;
+
+						&__summary {
+							font-size: 1rem;
+						}
 					}
 
 					&__text {

@@ -19,3 +19,8 @@
   font-size: clamp(0.875rem, 0.8367rem + 0.2041vw, 1rem);
   font-weight: 400;
 }
+
+:global(li) {
+  font-size: clamp(0.875rem, 0.8367rem + 0.2041vw, 1rem);
+  font-weight: 400;
+}
