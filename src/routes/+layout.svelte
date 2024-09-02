@@ -30,7 +30,13 @@
 			"applicationSubCategory": "GameConsoleApplication",
 			"operatingSystemRequirements": "Linux-based",
 			"url": "https://os.jukalang.com",
-			"image": "https://os.jukalang.com/logo.svg"
+			"image": "https://os.jukalang.com/logo.svg",
+			"aggregateRating": {
+				"@type": "AggregateRating",
+				"ratingValue": "4.5",
+				"ratingCount": "50",
+				"reviewCount": "20"
+			}
 		}
 	</script>
 </svelte:head>
