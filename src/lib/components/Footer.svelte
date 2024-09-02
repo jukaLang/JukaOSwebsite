@@ -3,26 +3,46 @@
 		<div class="footer__container__header">
 			<ul class="footer__container__header__list">
 				<li class="footer__container__header__list__item--title">Menu</li>
-				<li class="footer__container__header__list__item">Home</li>
-				<li class="footer__container__header__list__item">Features</li>
-				<li class="footer__container__header__list__item">Team</li>
-				<li class="footer__container__header__list__item">Documentation</li>
+				<li class="footer__container__header__list__item"><a href="/">Home</a></li>
+				<li class="footer__container__header__list__item"><a href="#features">Features</a></li>
+				<li class="footer__container__header__list__item"><a href="#about">About</a></li>
+				<li class="footer__container__header__list__item"><a href="#faq">FAQ</a></li>
 			</ul>
 			<ul class="footer__container__header__list">
 				<li class="footer__container__header__list__item--title">Community</li>
-				<li class="footer__container__header__list__item">Discord</li>
-				<li class="footer__container__header__list__item">Twitter</li>
-				<li class="footer__container__header__list__item">Facebook</li>
-				<li class="footer__container__header__list__item">Youtube</li>
-				<li class="footer__container__header__list__item">Instagram</li>
+				<li class="footer__container__header__list__item">
+					<a href="https://discord.gg/hjmCcrbD">Discord</a>
+				</li>
+				<li class="footer__container__header__list__item">
+					<a href="https://twitter.com/jukaLang">Twitter</a>
+				</li>
+				<li class="footer__container__header__list__item">
+					<a href="https://www.facebook.com/jukalang/">Facebook</a>
+				</li>
+				<li class="footer__container__header__list__item">
+					<a href="https://www.youtube.com/@jukalang">Youtube</a>
+				</li>
+				<li class="footer__container__header__list__item">
+					<a href="https://www.instagram.com/jukalanguage/">Instagram</a>
+				</li>
 			</ul>
 			<ul class="footer__container__header__list">
 				<li class="footer__container__header__list__item--title">More</li>
-				<li class="footer__container__header__list__item">Donate</li>
-				<li class="footer__container__header__list__item">Privacy</li>
-				<li class="footer__container__header__list__item">License</li>
-				<li class="footer__container__header__list__item">Contact Us</li>
-				<li class="footer__container__header__list__item">Github Source</li>
+				<li class="footer__container__header__list__item">
+					<a href="https://jukalang.com/donate">Donate</a>
+				</li>
+				<li class="footer__container__header__list__item">
+					<a href="https://jukalang.com/privacy">Privacy</a>
+				</li>
+				<li class="footer__container__header__list__item">
+					<a href="https://jukalang.com/license">License</a>
+				</li>
+				<li class="footer__container__header__list__item">
+					<a href="https://jukalang.com/contact">Contact Us</a>
+				</li>
+				<li class="footer__container__header__list__item">
+					<a href="https://github.com/jukaLang/juka">Github Source</a>
+				</li>
 			</ul>
 		</div>
 		<div class="footer__container__copy">

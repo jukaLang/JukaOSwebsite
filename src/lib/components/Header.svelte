@@ -35,25 +35,44 @@
 
 		<nav class="header__container__nav" class:active={isActive}>
 			<a href="/" class="header__container__nav__item">Home</a>
-			<a href="/" class="header__container__nav__item">Features</a>
-			<a href="/" class="header__container__nav__item">Team</a>
-			<a href="/" class="header__container__nav__item">Documentation</a>
-			<a href="/" class="header__container__nav__item--button"
+			<a href="#features" class="header__container__nav__item">Features</a>
+			<a href="#about" class="header__container__nav__item">About</a>
+			<a href="#faq" class="header__container__nav__item">FAQ</a>
+			<a
+				target="_blank"
+				href="https://github.com/jukaLang"
+				class="header__container__nav__item--button"
 				><Button type="fill" placeholder="Download" /></a
 			>
 			<div class="header__container__nav__socials">
-				<Icon icon="ic:baseline-discord" width="25" height="25" />
-				<Icon icon="mdi:github" width="25" height="25" />
-				<Icon icon="mdi:patreon" width="25" height="25" />
-				<Icon icon="mdi:youtube" width="25" height="25" />
+				<a target="_blank" href="https://discord.gg/hjmCcrbD"
+					><Icon icon="ic:baseline-discord" width="25" height="25" /></a
+				>
+				<a target="_blank" href="https://github.com/jukaLang"
+					><Icon icon="mdi:github" width="25" height="25" /></a
+				>
+				<a target="_blank" href="https://www.patreon.com/jukalang"
+					><Icon icon="mdi:patreon" width="25" height="25" /></a
+				>
+				<a target="_blank" href="https://www.youtube.com/@jukalang"
+					><Icon icon="mdi:youtube" width="25" height="25" /></a
+				>
 			</div>
 		</nav>
 
 		<div class="header__container__socials">
-			<Icon icon="ic:baseline-discord" color="white" width="25" height="25" />
-			<Icon icon="mdi:github" color="white" width="25" height="25" />
-			<Icon icon="mdi:patreon" color="white" width="25" height="25" />
-			<Icon icon="mdi:youtube" color="white" width="25" height="25" />
+			<a target="_blank" href="https://discord.gg/hjmCcrbD"
+				><Icon icon="ic:baseline-discord" width="25" height="25" /></a
+			>
+			<a target="_blank" href="https://github.com/jukaLang"
+				><Icon icon="mdi:github" width="25" height="25" /></a
+			>
+			<a target="_blank" href="https://www.patreon.com/jukalang"
+				><Icon icon="mdi:patreon" width="25" height="25" /></a
+			>
+			<a target="_blank" href="https://www.youtube.com/@jukalang"
+				><Icon icon="mdi:youtube" width="25" height="25" /></a
+			>
 		</div>
 	</div>
 </header>
@@ -93,6 +112,7 @@
 			}
 
 			&__socials {
+				color: white;
 				@media (max-width: $max-width) {
 					display: none;
 				}

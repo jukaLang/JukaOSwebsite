@@ -3,7 +3,7 @@
 	import Saos from 'saos';
 </script>
 
-<section class="about">
+<section class="about" id="about">
 	<div class="about__container">
 		<Saos animation={'fade-in .8s cubic-bezier(0.35, 0.5, 0.65, 0.95) both'}>
 			<div class="about__container__header">
@@ -63,6 +63,10 @@
 <style lang="scss">
 	.about {
 		@include container;
+
+		& {
+			scroll-margin-top: 100px;
+		}
 
 		&__container {
 			display: flex;

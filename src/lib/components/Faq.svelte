@@ -1,7 +1,7 @@
 <script lang="ts">
 	import Icon from '@iconify/svelte';
 	import Saos from 'saos';
-	import { fade, slide } from 'svelte/transition';
+	import { slide } from 'svelte/transition';
 
 	type FAQItem = {
 		question: string;
@@ -44,7 +44,7 @@
 	};
 </script>
 
-<section class="faq">
+<section class="faq" id="faq">
 	<div class="faq__container">
 		<Saos animation={'fade-in .8s cubic-bezier(0.35, 0.5, 0.65, 0.95) both'}>
 			<div class="faq__container__header">

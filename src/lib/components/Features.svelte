@@ -3,7 +3,7 @@
 	import Saos from 'saos';
 </script>
 
-<section class="features">
+<section class="features" id="features">
 	<div class="features__container">
 		<Saos animation={'fade-in .8s cubic-bezier(0.35, 0.5, 0.65, 0.95) both'}>
 			<div class="features__container__header">
@@ -85,6 +85,7 @@
 			background-position: center;
 			background-repeat: no-repeat;
 			background-size: cover;
+			scroll-margin-top: 60px;
 
 			&__container {
 				display: flex;

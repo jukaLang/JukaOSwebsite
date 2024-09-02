@@ -1,4 +1,5 @@
 <script>
+	import About from './About.svelte';
 	import Button from './Button.svelte';
 </script>
 
@@ -14,8 +15,12 @@
 			your gaming device.
 		</p>
 		<div class="hero__container__wrapper">
-			<Button placeholder="Try vJuka OS" type="fill" />
-			<Button placeholder="Join Us On Patreon" type="border" />
+			<a href="https://github.com/jukaLang" target="_blank"
+				><Button placeholder="Try vJuka OS" type="fill" /></a
+			>
+			<a href="https://www.patreon.com/jukalang" target="_blank"
+				><Button placeholder="Join Us On Patreon" type="border" /></a
+			>
 		</div>
 	</div>
 </section>
