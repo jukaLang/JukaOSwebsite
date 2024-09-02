@@ -18,6 +18,13 @@
 			font-weight: 700;
 			border-radius: 8px;
 			border: 2px solid white;
+			cursor: pointer;
+			transition: 0.3s ease-in-out;
+
+			&:hover {
+				background-color: $primary-clr;
+				border: 2px solid $primary-clr;
+			}
 		}
 
 		&--border {
@@ -28,6 +35,13 @@
 			font-size: 1.2rem;
 			font-weight: 700;
 			border-radius: 8px;
+			cursor: pointer;
+			transition: 0.3s ease-in-out;
+
+			&:hover {
+				color: $primary-clr;
+				border: 2px solid $primary-clr;
+			}
 		}
 	}
 </style>

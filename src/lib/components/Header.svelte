@@ -38,12 +38,14 @@
 			<a href="/" class="header__container__nav__item">Features</a>
 			<a href="/" class="header__container__nav__item">Team</a>
 			<a href="/" class="header__container__nav__item">Documentation</a>
-			<a href="/"><Button type="fill" placeholder="Download" /></a>
+			<a href="/" class="header__container__nav__item--button"
+				><Button type="fill" placeholder="Download" /></a
+			>
 			<div class="header__container__nav__socials">
-				<Icon icon="ic:baseline-discord" color="white" width="25" height="25" />
-				<Icon icon="mdi:github" color="white" width="25" height="25" />
-				<Icon icon="mdi:patreon" color="white" width="25" height="25" />
-				<Icon icon="mdi:youtube" color="white" width="25" height="25" />
+				<Icon icon="ic:baseline-discord" width="25" height="25" />
+				<Icon icon="mdi:github" width="25" height="25" />
+				<Icon icon="mdi:patreon" width="25" height="25" />
+				<Icon icon="mdi:youtube" width="25" height="25" />
 			</div>
 		</nav>
 
@@ -107,7 +109,7 @@
 				cursor: pointer;
 				z-index: 1;
 
-				@media (max-width: 1080px) {
+				@media (max-width: $max-width) {
 					display: flex;
 				}
 
@@ -146,6 +148,13 @@
 				gap: 1rem;
 				color: white;
 
+				&__item {
+					&--button {
+						border: 2px solid black;
+						border-radius: 12px;
+					}
+				}
+
 				&__item:hover {
 					color: #e3e3e3;
 					transition: ease-in-out 0.3s;
@@ -160,10 +169,11 @@
 
 					@media (max-width: $max-width) {
 						display: block;
+						color: black;
 					}
 				}
 
-				@media (max-width: 1080px) {
+				@media (max-width: $max-width) {
 					left: 0;
 					color: black;
 					width: 100%;
