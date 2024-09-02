@@ -34,10 +34,15 @@
 		</button>
 
 		<nav class="header__container__nav" class:active={isActive}>
-			<a href="/" class="header__container__nav__item">Home</a>
-			<a href="#features" class="header__container__nav__item">Features</a>
-			<a href="#about" class="header__container__nav__item">About</a>
-			<a href="#faq" class="header__container__nav__item">FAQ</a>
+			<a on:click={() => (isActive = false)} href="/" class="header__container__nav__item">Home</a>
+			<a on:click={() => (isActive = false)} href="#features" class="header__container__nav__item"
+				>Features</a
+			>
+			<a on:click={() => (isActive = false)} href="#about" class="header__container__nav__item"
+				>About</a
+			>
+			<a on:click={() => (isActive = false)} href="#faq" class="header__container__nav__item">FAQ</a
+			>
 			<a
 				target="_blank"
 				href="https://github.com/jukaLang"
