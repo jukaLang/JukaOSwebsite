@@ -28,9 +28,9 @@
 				"url": "https://os.jukalang.com"
 			},
 			"applicationSubCategory": "GameConsoleApplication",
-			"operatingSystemRequirements": "Linux-based",
 			"url": "https://os.jukalang.com",
-			"image": "https://os.jukalang.com/logo.svg",
+			"image": "logo.svg",
+			"logo": "logo.svg"
 			"aggregateRating": {
 				"@type": "AggregateRating",
 				"ratingValue": "4.5",

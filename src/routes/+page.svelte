@@ -7,7 +7,6 @@
 
 <svelte:head>
 	<title>Juka OS</title>
-
 	<meta
 		name="description"
 		content="Discover Visual Juka OS, a custom-built operating system for the Trimui Smart Pro, designed by gamers for gamers. Experience seamless, high-performance gaming tailored to your needs."
