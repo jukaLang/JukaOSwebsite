@@ -29,7 +29,7 @@
 			},
 			"applicationSubCategory": "GameConsoleApplication",
 			"url": "https://os.jukalang.com",
-			"image": "favicon.png",
+			"image": "favicon.ico",
 			"aggregateRating": {
 				"@type": "AggregateRating",
 				"ratingValue": "4.5",
