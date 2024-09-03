@@ -9,10 +9,9 @@
 			Juka OS, the <br /> <span class="hero__container__title__highlight"> gamer's choice.</span>
 		</h1>
 		<p class="hero__container__text">
-			Visual Juka OS is a custom-built operating system designed specifically for the Trimui Smart
-			Pro. Crafted by gamers for gamers, it offers a seamless, high-performance experience. Juka OS
-			is under continuous development by a passionate community, ensuring you get the best out of
-			your gaming device.
+			Visual Juka OS is a custom Trimui OS. Crafted by gamers for gamers, it offers a seamless,
+			high-performance experience. It's development is under continuous development by a passionate
+			community, ensuring you get the best out of your gaming device.
 		</p>
 		<div class="hero__container__wrapper">
 			<a href="https://github.com/jukaLang" target="_blank"

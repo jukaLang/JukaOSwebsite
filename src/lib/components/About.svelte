@@ -8,14 +8,14 @@
 		<Saos animation={'fade-in .8s cubic-bezier(0.35, 0.5, 0.65, 0.95) both'}>
 			<div class="about__container__header">
 				<h2 class="about__container__header__title">What is Visual Juka OS?</h2>
-				<p class="about__container__header__subtitle">Enhance Your TSP Experience</p>
+				<p class="about__container__header__subtitle">Your Custom Trimui OS</p>
 
 				<p class="about__container__header__text">
-					Juka OS powers the Trimui Smart Pro, so you get a seamless gaming experience right from
-					the start. It works effortlessly, and it includes all the features and tools every gamer
-					needs. Moreover, you can jump into your games without any hassle. In addition, Juka OS
-					offers an intuitive design, making it easy to navigate. As a result, you spend less time
-					setting up and more time enjoying your games.
+					Juka OS is a <em>custom Trimui Smart Pro OS</em>. It enables seamless use of Android apps
+					and games on Trimui hardware, allowing users to jump into their favorite titles without
+					any hassle. This <em>custom OS for Trimui</em> boasts an intuitive, highly customizable interface
+					that's easy to navigate. This streamlined experience means you'll spend less time setting up
+					and more time enjoying your games.
 				</p>
 			</div>
 		</Saos>
